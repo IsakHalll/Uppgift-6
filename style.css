@@ -1,0 +1,64 @@
+h1{
+}
+
+
+nav{
+    margin-inline: 13rem;
+}
+.primary-navigation{
+    display: flex;
+    justify-content: center;
+    margin:1rem;
+    gap: 1rem;
+    list-style: none;
+
+}
+
+header{ 
+    background:linear-gradient(to right, rgb(143, 18, 143) 30%, rgb(232, 74, 132))
+    
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    width:65%;
+    margin-inline: auto;
+}
+section{
+    
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(241, 238, 238);
+    max-width: 50%;
+    height: min-content;
+    position: sticky;
+    top: 0;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+    width: 65%;
+}
+
+.grid-row:nth-child(odd){
+    background-color: rgb(208, 206, 206);
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+footer{
+    background:linear-gradient(to right, rgb(143, 18, 143) 30%, rgb(232, 74, 132));
+    margin: 0%;
+    
+}
